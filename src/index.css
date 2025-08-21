@@ -1,0 +1,29 @@
+/* Global Reset */
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  min-height: 100vh;
+  background-color: #161513; /* Dark background */
+  color: white;              /* Default text color */
+  font-family: 'Arial', sans-serif; /* Default font */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
