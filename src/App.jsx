@@ -5,6 +5,7 @@ import About from "./Component/About/About";
 import Services from "./Component/Services/Services";
 import { Contact } from "./Component/Contact/Contact";
 import { Portfolio } from "./Component/Portfolio/Portfolio";
+import Certifications from "./Component/Certifications/Certifications";
 
 // import your Services, Portfolio, Contact components too
 
@@ -24,6 +25,9 @@ const App = () => {
         </section>
         <section id="portfolio">
             <Portfolio/>
+        </section>
+        <section id="certifications">
+             <Certifications/>
         </section>
         <section id="contact">
              <Contact />

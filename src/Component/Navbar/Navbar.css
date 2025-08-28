@@ -91,18 +91,72 @@
   cursor: pointer;
 }
 
-/* Mobile menu */
+
+/* Mobile sidebar menu */
 .mobile-menu {
+  position: fixed;
+  top: 64px; /* below navbar */
+  right: 0;
+  height: calc(100vh - 64px);
+  width: 250px;
   display: flex;
   flex-direction: column;
-  background: #1e1e1e;
-  border-top: 1px solid #444;
+  background: rgba(30, 30, 30, 0.97);
+  border-left: 1px solid #444;
+  z-index: 999;
+  padding-top: 10px;
+
+  /* Transition for smooth open/close */
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
 }
 
+/* When active (menu open) */
+.mobile-menu.active {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Links inside sidebar */
 .mobile-menu .nav-link {
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu .nav-link:hover {
+  background: rgba(0, 191, 255, 0.1);
+  color: #00bfff;
+  padding-left: 25px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .nav-items.desktop {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+}
+
+/* Slide in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Responsive */

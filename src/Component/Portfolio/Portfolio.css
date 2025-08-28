@@ -111,10 +111,6 @@
   color: #00bfff;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.tech-badge:hover {
-  background: #00bfff;
-  color: #fff;
-}
 
 /* Buttons */
 .card-buttons {
@@ -140,7 +136,7 @@
 
 /* Primary Button */
 .btn-primary {
-  background: linear-gradient(90deg, #007bff, #00bfff);
+  background: linear-gradient(90deg, #00bfff, #8a2be2);
   color: #fff;
   border: none;
 }

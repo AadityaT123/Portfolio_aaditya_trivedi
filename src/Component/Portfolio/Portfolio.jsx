@@ -36,7 +36,7 @@ export function Portfolio() {
     title: "Flutter Mobile Apps",
     description:
       "Collection of Android/iOS applications built with Flutter, featuring smooth animations, intuitive user interfaces, robust backend integrations, and seamless cross-platform performance.",
-    image: Project.farejobs,
+    image: Project.TODO,
     technologies: ["Flutter", "Android", "iOS", "Backend Integration"],
     liveLink: "#",
     githubLink: "#",

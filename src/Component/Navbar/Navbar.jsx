@@ -12,6 +12,7 @@ const Navbar = () => {
     { href: "#about", label: "About", id: "about" },
     { href: "#services", label: "Services", id: "services" },
     { href: "#portfolio", label: "Portfolio", id: "portfolio" },
+    { href: "#certifications", label: "Certifications", id: "certifications" }, // ✅ Added
     { href: "#contact", label: "Contact", id: "contact" },
   ];
 
@@ -69,20 +70,20 @@ const Navbar = () => {
         </div>
 
         {/* Mobile dropdown menu */}
-        {isOpen && (
-          <div className="mobile-menu">
-            {navItems.map((item) => (
-              <a
-                key={item.id}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className={`nav-link ${activeSection === item.id ? "active" : ""}`}
-              >
-                {item.label}
-              </a>
-            ))}
-          </div>
-        )}
+        {/* Mobile sidebar menu */}
+<div className={`mobile-menu ${isOpen ? "active" : ""}`}>
+  {navItems.map((item) => (
+    <a
+      key={item.id}
+      href={item.href}
+      onClick={() => setIsOpen(false)}
+      className={`nav-link ${activeSection === item.id ? "active" : ""}`}
+    >
+      {item.label}
+    </a>
+  ))}
+</div>
+
       </div>
     </nav>
   );

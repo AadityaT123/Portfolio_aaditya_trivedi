@@ -74,7 +74,7 @@ export default function About() {
               </div>
               <div>
                 <h4 className="highlight">10th Grade</h4>
-                <p>Completed in 2019</p>
+                <p>Completed in 2020</p>
               </div>
             </div>
           </div>

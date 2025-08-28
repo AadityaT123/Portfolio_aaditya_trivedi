@@ -1,6 +1,5 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // React Icons
-import { HiArrowDown } from "react-icons/hi"; // ArrowDown
-import "./Hero.css"; // Import the CSS file
+import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import "./Hero.css";
 
 export function Hero() {
   const scrollToSection = (sectionId) => {
@@ -52,33 +51,33 @@ export function Hero() {
             </button>
           </div>
 
- {/* Social Links */}
-<div className="hero-socials">
-  <a
-    href="https://github.com/AadityaT123"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaGithub />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/aaditya-trivedi-16196524b/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaLinkedin />
-  </a>
-  <a href="mailto:aadityatrivedi31244@gmail.com">
-    <FaEnvelope />
-  </a>
-</div>
+          {/* Social Links */}
+          <div className="hero-socials">
+            <a
+              href="https://github.com/AadityaT123"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github size={28} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aaditya-trivedi-16196524b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin size={28} />
+            </a>
+            <a href="mailto:aadityatrivedi31244@gmail.com">
+              <Mail size={28} />
+            </a>
+          </div>
 
           {/* Scroll Indicator */}
           <button
             onClick={() => scrollToSection("about")}
             className="scroll-indicator"
           >
-            <HiArrowDown className="scroll-icon" size={30} />
+            <ArrowDown className="scroll-icon" size={30} />
           </button>
         </div>
       </div>
