@@ -9,4 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"), // @ points to src folder
     },
   },
+   base: "/Portfolio_aaditya_trivedi/", // 👈 your repo name
 });
