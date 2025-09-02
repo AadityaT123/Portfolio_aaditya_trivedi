@@ -11,17 +11,17 @@ export function Portfolio() {
       "A comprehensive job portal built with React & Node.js featuring an admin panel, dark/light themes, and responsive design for seamless job searching and posting.",
     image: Project.farejobs,   // ✅ fixed
     technologies: ["React", "Node.js", "Admin Panel", "Responsive Design"],
-    liveLink: "https://farejobs.vercel.app/",
-    githubLink: "#",
+    liveLink: "https://fare-jobs.netlify.app/",
+    githubLink: "https://github.com/AadityaT123/job-Portal",
   },
   {
     title: "DESICART",
     description:
       "A feature-rich e-commerce platform developed with React, showcasing product listings, special offers, and a fully responsive design for optimal shopping experience.",
-    image: Project.farejobs,   // ✅ fixed
+    image: Project.desicart,   // ✅ fixed
     technologies: ["React", "E-commerce", "Product Listings", "Responsive"],
-    liveLink: "https://desicart.vercel.app/",
-    githubLink: "#",
+    liveLink: "https://desicart-commerce.netlify.app/",
+    githubLink: "https://github.com/AadityaT123/Desicart-Fullstack",
   },
   {
     title: "DineEase",
@@ -30,7 +30,7 @@ export function Portfolio() {
     image: Project.farejobs,
     technologies: ["Flutter", "Mobile App", "Restaurant Booking", "UI/UX"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/AadityaT123/DineEase-FullStack",
   },
   {
     title: "Flutter Mobile Apps",
@@ -39,7 +39,7 @@ export function Portfolio() {
     image: Project.TODO,
     technologies: ["Flutter", "Android", "iOS", "Backend Integration"],
     liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/AadityaT123/TODO_flutter_app",
   },
 ];
 

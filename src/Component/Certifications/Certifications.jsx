@@ -7,7 +7,7 @@ export default function Certifications() {
     {
       title: "AWS Certified Solutions Architect",
       issuer: "Amazon Web Services",
-      date: "2024",
+      date: "2025",
       credentialId: "AWS-SAA-2024-001",
       description:
         "Demonstrated expertise in designing distributed systems on AWS platform",
@@ -17,7 +17,7 @@ export default function Certifications() {
     {
       title: "Google Cloud Professional Developer",
       issuer: "Google Cloud",
-      date: "2023",
+      date: "2025",
       credentialId: "GCP-PD-2023-456",
       description:
         "Proficient in developing scalable applications on Google Cloud Platform",
@@ -25,12 +25,15 @@ export default function Certifications() {
       verified: true,
     },
     {
-      title: "Microsoft Azure Fundamentals",
-      issuer: "Microsoft",
+      title: "Drone Pilot Training & Development",
+      issuer: "PIEMR",
       date: "2023",
       credentialId: "AZ-900-2023-789",
-      description: "Foundation knowledge of cloud services and Microsoft Azure",
-      skills: ["Azure Services", "Cloud Computing", "Security", "Compliance"],
+      description: "Training in drone flying, aviation rules, cloud integration, and data analysis with Azure.",
+      skills:[
+  "Azure Services",  "Cloud Computing",  "Aviation Regulations","Flight Operations","Remote Sensing",
+  "Navigation Systems","Data Analysis"
+],
       verified: true,
     },
     {

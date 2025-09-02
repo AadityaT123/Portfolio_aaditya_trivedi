@@ -140,6 +140,14 @@
   color: #fff;
   border: none;
 }
+.card-buttons.icon {
+  color: white;
+}
+.btn-primary .icon {
+  color: white;  /* ensures ExternalLink icon is white */
+}
+
+
 .btn-primary:hover {
   opacity: 0.9;
   box-shadow: 0 0 20px rgba(0, 191, 255, 0.6);
