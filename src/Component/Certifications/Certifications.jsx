@@ -37,13 +37,13 @@ export default function Certifications() {
       verified: true,
     },
     {
-      title: "React Developer Certification",
-      issuer: "Meta",
-      date: "2024",
-      credentialId: "META-REACT-2024-123",
-      description: "Advanced React development skills and best practices",
-      skills: ["React", "JavaScript", "Frontend Development", "State Management"],
-      verified: true,
+      title: "Bash Scripting",
+      issuer: "Medicaps University",
+      date: "2025",
+      credentialId: "BASH-2025-001",
+      description: "Completed Bash scripting lectures and assessment covering command-line usage, shell scripting basics, and automation fundamentals.",
+      skills: ["Bash","Linux Command Line","Shell Scripting","Automation" ],
+      verified: true
     },
   ];
 
