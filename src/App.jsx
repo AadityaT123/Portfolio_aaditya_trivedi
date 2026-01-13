@@ -5,7 +5,7 @@ import About from "./Component/About/About";
 import Services from "./Component/Services/Services";
 import { Contact } from "./Component/Contact/Contact";
 import { Portfolio } from "./Component/Portfolio/Portfolio";
-import Certifications from "./Component/Certifications/Certifications";
+import Certifications from "./Component/Certifications/CertificationsSection";
 
 // import your Services, Portfolio, Contact components too
 
