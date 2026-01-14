@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import "./Hero.css";
+import { Project } from "../Assets/Project";
 
 export function Hero() {
   const scrollToSection = (sectionId) => {
@@ -17,7 +18,7 @@ export function Hero() {
           <div className="hero-profile mb-8">
             <div className="profile-image">
               <img
-                src="/indian-software-developer-headshot.png"
+                src={Project.heroImage}
                 alt="Aaditya Trivedi - Professional Profile"
                 className="object-cover w-full h-full"
               />
